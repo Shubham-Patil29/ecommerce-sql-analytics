@@ -1,0 +1,22 @@
+# Local PostgreSQL and environment files
+*.log
+.env
+.env.*
+
+# Local data exports and database dumps
+*.csv
+*.zip
+*.dump
+*.backup
+
+# Editor and operating-system files
+.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# Keep personal interview preparation local
+docs/interview_prep.md
+
+# Python and Node caches, if used for local tooling
+__pycache__/
+node_modules/
